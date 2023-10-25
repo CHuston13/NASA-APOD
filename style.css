@@ -1,0 +1,77 @@
+body{
+    background: url(./star.jpg.jpg)
+}
+
+
+
+#APOD{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 55%;
+  height: 55%;
+  
+
+  border-radius: 20%;
+}
+
+
+#apod-header{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 10%;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+#apod-explain{
+    color: white;
+    text-align: center;
+   
+}
+
+#apodDate{
+  display: flex;
+  justify-content: center;
+   background-color:transparent;
+   color: white;
+   border: 0;
+   font-size: 40px;
+
+}
+#apodDate:hover{
+    background-color:black;
+}
+
+
+#firstLabel{
+    color: white;
+    font-size: 40px;
+    font-family:monospace;
+    font-weight: bold;
+
+}
+
+#labelContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    margin-top: 30vh;
+    gap: 30px;
+}
+#images{
+    margin-top: 20vh;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-color: black;
+
+    
+}
